@@ -762,6 +762,61 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1806638553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1806638555}
+  - component: {fileID: 1806638554}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1806638554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806638553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb4b06caf9cbd438472ce720f5c252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obj:
+  - {fileID: 2151367103102459537, guid: b5a3244391773db49ad41efbdda9c2c6, type: 3}
+  - {fileID: 5814155036517343507, guid: 8d6e0d4ca8f9ea440a0d4c1495399e73, type: 3}
+  - {fileID: 578583718185350763, guid: 2bf93e789a78c5a4b9a1728c3ea4fde3, type: 3}
+  - {fileID: 1977393667333702295, guid: 0c7bfbbebfd317a408e444e5d5464d99, type: 3}
+  - {fileID: 9001524321206160195, guid: de1ad421b29a8e443ae74914041145f9, type: 3}
+  - {fileID: 508146319413412249, guid: 09d0182402c177f4e86398f325c8b793, type: 3}
+  - {fileID: 2520290428840795660, guid: 0ba59d0887a7f044bbf8de62fe702a0d, type: 3}
+  - {fileID: 3230575964191633471, guid: e9dfd1bf3ca417d49bd7767875006db2, type: 3}
+  - {fileID: 6596152971176790662, guid: 7b6704bba35605040b1de48acae4a170, type: 3}
+  b: 0
+--- !u!4 &1806638555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806638553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8799256, y: 0.98397076, z: 0.012901574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1886244579
 GameObject:
   m_ObjectHideFlags: 0
