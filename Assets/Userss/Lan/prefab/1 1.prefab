@@ -96,6 +96,8 @@ GameObject:
   - component: {fileID: 5814155036517343504}
   - component: {fileID: 5814155036517343505}
   - component: {fileID: 5814155036517343506}
+  - component: {fileID: 5535300884942609822}
+  - component: {fileID: 6863709557914410256}
   m_Layer: 0
   m_Name: 1 1
   m_TagString: Untagged
@@ -191,3 +193,31 @@ PolygonCollider2D:
       - {x: -0.057272136, y: -0.74492824}
       - {x: 0.03353566, y: -0.74848855}
       - {x: 0.15469351, y: -0.7484485}
+--- !u!114 &5535300884942609822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814155036517343507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1608dff7cc615498dcc0499c549ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_PullDistance: 0
+  _force: 0
+--- !u!114 &6863709557914410256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814155036517343507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1608dff7cc615498dcc0499c549ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_PullDistance: 0
+  _force: 0
