@@ -94,13 +94,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5814155036517343511}
   - component: {fileID: 5814155036517343504}
-  - component: {fileID: 5814155036517343505}
   - component: {fileID: 5814155036517343506}
   - component: {fileID: 5535300884942609822}
-  - component: {fileID: 6863709557914410256}
+  - component: {fileID: 1221055022735727365}
   m_Layer: 0
   m_Name: 1 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,20 +141,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5814155036517343505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5814155036517343507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea1b8ca79eef42459609252ba546a22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 10
-  speed: 5
 --- !u!60 &5814155036517343506
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -205,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1608dff7cc615498dcc0499c549ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_PullDistance: 0
-  _force: 0
---- !u!114 &6863709557914410256
+  max_PullDistance: 2
+  _force: 2
+--- !u!114 &1221055022735727365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,8 +201,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5814155036517343507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f1608dff7cc615498dcc0499c549ba7, type: 3}
+  m_Script: {fileID: 11500000, guid: c0a59f4846bb2b54894dc0551fa2d72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_PullDistance: 0
-  _force: 0

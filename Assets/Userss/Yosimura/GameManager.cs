@@ -8,16 +8,22 @@ public class GameManager : MonoBehaviour
     public GameObject[] Obj;
 
    public int b;
-
+    void Start()
+    {
+        int b = 0; 
+    }
     // Update is called once per frame
     void Update()
     {
-
         if (Change.desCount == 0)
         {
-            Debug.Log("aaa");
-            Instantiate(Obj[0], new Vector3(5.0f, 0.0f, 0.0f), Quaternion.identity);
-            b++;
+            if(b == 0)
+            {
+                Debug.Log("aaa");
+                Instantiate(Obj[0], new Vector3(5.0f, 0.0f, 0.0f), Quaternion.identity);
+                b++;
+            }
+            
         }
 
         if (Change.desCount == 1)

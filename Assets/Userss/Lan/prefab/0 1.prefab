@@ -94,11 +94,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2151367103102459541}
   - component: {fileID: 2151367103102459540}
-  - component: {fileID: 2151367103102459543}
   - component: {fileID: 2151367103102459542}
+  - component: {fileID: 3706490849072533037}
+  - component: {fileID: -3738925485747382625}
   m_Layer: 0
   m_Name: 0 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,20 +141,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2151367103102459543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2151367103102459537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea1b8ca79eef42459609252ba546a22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 10
-  speed: 5
 --- !u!60 &2151367103102459542
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -205,3 +192,29 @@ PolygonCollider2D:
       - {x: 0.2694267, y: -0.47762236}
       - {x: 0.27028334, y: 0.38465855}
       - {x: 0.26033056, y: 0.46229059}
+--- !u!114 &3706490849072533037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2151367103102459537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a59f4846bb2b54894dc0551fa2d72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3738925485747382625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2151367103102459537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1608dff7cc615498dcc0499c549ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_PullDistance: 2
+  _force: 2
