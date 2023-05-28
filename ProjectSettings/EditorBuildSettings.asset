@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Userss/Suzuki/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Userss/Kobayasi/Scenes/Title.unity
+    guid: 1af87f7885bf02a4999ca6a578a4e1af
+  - enabled: 1
+    path: Assets/Userss/Kobayasi/Scenes/Scene2.unity
+    guid: c1cce37976b1b2e4ba7a07063b20f7cb
   m_configObjects: {}
